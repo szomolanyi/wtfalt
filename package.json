@@ -4,20 +4,21 @@
   "description": "Base repository for FE projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "webpack": "webpack",
+    "devserver": "webpack-dev-server --inline"
   },
   "author": "Robert Szomolanyi",
   "license": "BSD-2-Clause",
   "devDependencies": {
     "gulp-util": "~3.0.7",
     "gulp": "~3.9.1",
-    "gulp-webserver": "~0.9.1"
+    "gulp-webserver": "~0.9.1",
+    "style-loader": "~0.13.1",
+    "css-loader": "^0.18.0",
+    "eslint": "~3.11.1",
+    "eslint-loader": "~1.6.1"
   },
   "dependencies": {
     "webpack": "~1.13.3"
-  },
-  "scripts": {
-    "webpack": "webpack",
-    "devserver": "webpack-dev-server --inline"
   }
 }
