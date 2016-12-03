@@ -12,5 +12,12 @@
     "gulp-util": "~3.0.7",
     "gulp": "~3.9.1",
     "gulp-webserver": "~0.9.1"
+  },
+  "dependencies": {
+    "webpack": "~1.13.3"
+  },
+  "scripts": {
+    "webpack": "webpack",
+    "devserver": "webpack-dev-server --inline"
   }
 }
